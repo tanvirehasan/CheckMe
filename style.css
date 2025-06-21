@@ -1,0 +1,85 @@
+body {
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  background: #f3f6fc;
+  margin: 0;
+  min-width: 290px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(60, 80, 120, 0.11);
+  margin: 16px;
+  padding: 18px 18px 8px 18px;
+  min-width: 250px;
+  max-width: 320px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 1.4em;
+}
+.title {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #222e;
+}
+
+.info {
+  margin-bottom: 8px;
+}
+.ip-row, .location-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 5px;
+}
+
+.label {
+  font-weight: 600;
+  color: #508bf9;
+  font-size: 1em;
+}
+
+.value {
+  font-family: monospace;
+  font-size: 1em;
+  color: #222;
+}
+
+.flag {
+  width: 22px;
+  height: 16px;
+  margin-left: 6px;
+  border-radius: 3px;
+  box-shadow: 0 0 2px #aaa;
+}
+
+#map.map {
+  margin: 10px 0 7px 0;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #e4eaf1;
+}
+
+.credit {
+  font-size: 10px;
+  color: #9ba6be;
+  margin-top: 2px;
+  text-align: right;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
