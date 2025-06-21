@@ -19,7 +19,6 @@
         "48": "icon.png",
         "128": "icon.png"
     },
-  
   "host_permissions": [
     "https://ipinfo.io/*"
   ]
