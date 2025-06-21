@@ -10,3 +10,8 @@ No tracking. No data storage. Privacy first.
 - No user data collected or stored
 
 
+#Privacy Policy for CheckMe Extension
+
+CheckMe does not collect, store, or transmit any personally identifiable information. All IP address and location data is processed locally in your browser using the ipinfo.io public API, only for the purpose of displaying your current IP address and location within the extension popup. No personal data is sold, shared, or transferred to any third parties, except for the necessary communication with the ipinfo.io API to obtain your IP and location.
+
+CheckMe does not track your browsing activity, does not use cookies, and does not store any user information on its own servers. All data stays on your device, and only temporary requests are made to ipinfo.io to fetch your public IP address and location.
