@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CheckMe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <span class="logo">🌐</span>
+      <span class="title">CheckMe</span>
+    </div>
+    <div class="info">
+      <div class="ip-row">
+        <span class="label">IP:</span>
+        <span id="ip" class="value">Loading...</span>
+      </div>
+      <div class="location-row">
+        <span id="location"></span>
+        <img id="flag" alt="Country flag" class="flag" style="display:none;">
+      </div>
+    </div>
+    <div id="map" class="map"></div>
+    <div class="credit">Powered by ipinfo.io | OpenStreetMap</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
